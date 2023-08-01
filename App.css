@@ -1,0 +1,110 @@
+body, h1, h2, h3, p, ul, li, table {
+  text-emphasis-color: rgba(88, 200, 240, 0.71);
+  text-align: center;
+  margin: 2px;
+  padding: 5px;
+}
+
+.app-container {
+  text-align: center;
+  background-color: aquamarine;
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-emphasis-color: pink;
+}
+
+h2 {
+  margin-bottom: 10px;
+  text-emphasis-color: rgb(2, 2, 131);
+}
+
+.login-container {
+  background-color: brown;
+  text-align: center;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+}
+
+.login-container h2 {
+  background-color: chartreuse;
+  text-align: center;
+}
+
+.login-container input {
+  background-color: cyan;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-container button {
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  text-align: center;
+  background-color: #45a049;
+}
+
+.datagrid-container {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  background-color: aquamarine;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.menu-container button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.menu-container button:hover {
+  background-color: #45a049;
+}
+
+.menu-container button.active {
+  background-color: #333;
+}
+
+.datagrid-container > div {
+  display: none;
+}
+
+.datagrid-container > div.active {
+  display: block;
+}
